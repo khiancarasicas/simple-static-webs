@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Personal Portfolio",
+        "description": "A portfolio website showcasing my skills and projects.",
+        "tech-used": [
+            "HTML", 
+            "CSS", 
+            "JavaScript"
+        ],
+        "buttons": [
+            {
+                "btn-text": "View Live",
+                "btn-link": "index.html"
+            },
+            {
+                "btn-text": "View on Github",
+                "btn-link": "index.html"
+            }
+        ]
+    },
+    {
+        "name": "Project Name",
+        "description": "Project Description",
+        "tech-used": [
+            "React", 
+            "Node.js", 
+            "MongoDB"
+        ],
+        "buttons": [
+            {
+                "btn-text": "Visit",
+                "btn-link": "index.html"
+            }
+        ]
+    }
+]

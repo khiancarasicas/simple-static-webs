@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+    color: white;
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+body {
+    margin: auto;
+    max-width: 80rem;
+    min-width: 20rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #191825;
+}
+
+h1, h2 {
+    font-size: 1rem;
+    font-weight:500;
+}
+
+h3 {
+    font-weight: inherit;
+}
+
+p {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.line {
+    height: .05rem;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: .5rem;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+}
+
+.shine-text {
+    display: inline-flex; 
+    align-items: center; 
+    background: linear-gradient(90deg, rgb(134, 93, 255), rgb(227, 132, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none; 
+    gap: 0.3rem; 
+}
+
+.shine-text span svg {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: block; 
+}
+
+.container-2 {
+    display: grid;
+    gap: .8rem;
+}
+
+.chip {
+    display: inline-block;
+    background-color: rgb(134, 93, 255, .1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .5rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    font-size: .7rem;
+    color: rgb(134, 93, 255);
+}
+
+.btn-link {
+    display: flex;
+    background-color: rgb(134, 93, 255, .1);
+    text-decoration: none;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .5rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    font-size: .7rem;
+    color: rgb(134, 93, 255);
+}
+
+.btn-link:hover {
+    background-color: rgb(134, 93, 255, .2);
+}
+
+/* HEADER */
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+}
+
+#hero > div {
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+
+#hero-name {
+    line-height: 1rem;
+}
+
+
+#profile-pic {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+header #social-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+}
+
+.project-card {
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.01);
+    border-radius: 1rem;
+    border: .05rem solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card > p {
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+}
+
+.tech-used {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr; /* Two columns: left (flexible), right (auto) */
+    gap: 1rem; /* Add space between columns */
+    margin-top: 2.5rem;
+}
+
+#footer-text {
+    color: white;
+}
+
+.credits-text {
+    text-align: right;
+}
+
+@media (max-width: 600px) { /* Adjusts layout when screen width is small */
+    .footer-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 0.5rem;
+    }
+
+    .credits-text {
+        text-align: left; /* Align to left in single column */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 449px) { 
+    /* Styles for mobile devices */
+    body {
+        padding-left: 1.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
