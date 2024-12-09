@@ -96,18 +96,6 @@ main {
     gap: .8rem;
 }
 
-#buttons-project {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .5rem;
-}
-
-
-#projects-list {
-    display: grid;
-    gap: .8rem;
-}
-
 .btn-link {
     display: flex;
     background-color: rgb(134, 93, 255, .1);
@@ -159,6 +147,8 @@ header #social-links-list {
     align-items: center;
 }
 
+/* PROJECT */
+
 .project-card {
     padding: 1.5rem;
     background-color: rgba(255, 255, 255, 0.01);
@@ -178,6 +168,19 @@ header #social-links-list {
     margin-bottom: 1rem;
 }
 
+.projects-list {
+    display: grid;
+    gap: .8rem;
+}
+
+.buttons-project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+/* FOOTER */
+
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -192,6 +195,8 @@ header #social-links-list {
 .credits-text {
     text-align: right;
 }
+
+/*  */
 
 @media (max-width: 600px) { 
     .footer-container {

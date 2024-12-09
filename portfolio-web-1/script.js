@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="tech-used">
                             ${data["tech-used"].map(tech => `<p class="shine-text">${tech}</p>`).join("")}
                         </div>
-                        <div id="buttons-project">
+                        <div class="buttons-project">
                             ${data.buttons.map(button => `
                                 <a class="btn-link" target="_blank" href="${button["btn-link"]}">${button["btn-text"]}</a>
                             `).join("")}
