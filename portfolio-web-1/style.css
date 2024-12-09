@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* DEFAULT THEME */
-/* :root {
+:root {
     --font-color-1: white;
     --background-color: rgb(25, 24, 37);
     --primary-color: rgb(134, 93, 255);
@@ -13,10 +13,10 @@
     --primary-container-hover: rgb(134, 93, 255, .2);
     --default-container: rgba(255, 255, 255, 0.01);
     --default-container-border: rgba(255, 255, 255, 0.1);
-} */
+}
 
 /* THEME 2 */
-:root {
+/* :root {
     --font-color-1: white;
     --background-color: rgb(24, 24, 35);
     --primary-color: rgb(83, 127, 231);
@@ -28,7 +28,7 @@
     --primary-container-hover: rgb(83, 127, 231, .2);
     --default-container: rgba(255, 255, 255, 0.01);
     --default-container-border: rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* THEME 3 */
 /* :root {
