@@ -1,11 +1,12 @@
 {
-    "profile-pic": "https://wallpapers.com/images/hd/cute-penguin-pictures-oco9r0e3mz8llqdm.jpg",
+    "profile-pic": "https://s4.anilist.co/file/anilistcdn/character/large/b137974-9qnK3DPrvLKh.jpg",
     "name": "Khian Carasicas",
     "title": "IT Student",
+    "mail": "test.email.khian@gmail.com",
     "social": [
         {"name": "LinkedIn", "link": "https://www.linkedin.com/in/khiancarasicas"},
         {"name": "GitHub", "link": "https://github.com/khiancarasicas"},
         {"name": "Facebook", "link": "https://facebook.com/khiancarasicas"}
     ],
-    "about": "I'm Khian Carasicas from Philippines"
+    "about": "Hello there! I'm Khian Carasicas, a BSIT student. While I might be known for being a little \"lazy\" at times, I like to think of it as \"strategic relaxation\". But when it's time to code, study, or work on a project, I'm all in (or, well, maybe just lazy for the day)."
 }

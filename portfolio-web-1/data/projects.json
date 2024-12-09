@@ -1,7 +1,7 @@
 [
     {
-        "name": "Personal Portfolio",
-        "description": "A portfolio website showcasing my skills and projects.",
+        "name": "Simple Static Websites",
+        "description": "This is a collection of static websites created using basic web technologies. These websites do not require a database or server-side processing. They are fully responsive, ensuring they look good on all devices. These websites are ideal for showcasing content without the need for complex functionality.",
         "tech-used": [
             "HTML", 
             "CSS", 
@@ -9,27 +9,27 @@
         ],
         "buttons": [
             {
-                "btn-text": "View Live",
-                "btn-link": "index.html"
-            },
-            {
-                "btn-text": "View on Github",
-                "btn-link": "index.html"
+                "btn-text": "View On Github",
+                "btn-link": "https://github.com/khiancarasicas/simple-static-webs"
             }
         ]
     },
     {
-        "name": "Project Name",
-        "description": "Project Description",
+        "name": "Personal Portfolio",
+        "description": "A simple portfolio website that highlights skills, experience, and projects. Designed to be clean, easy to navigate, and visually appealing..",
         "tech-used": [
-            "React", 
-            "Node.js", 
-            "MongoDB"
+            "HTML", 
+            "CSS", 
+            "JavaScript"
         ],
         "buttons": [
             {
-                "btn-text": "Visit",
-                "btn-link": "index.html"
+                "btn-text": "View On Github",
+                "btn-link": "https://github.com/khiancarasicas/simple-static-webs"
+            },
+            {
+                "btn-text": "View Live",
+                "btn-link": "https://khiancarasicas.github.io/simple-static-webs/portfolio-web-1/"
             }
         ]
     }
