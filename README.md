@@ -16,11 +16,7 @@ A collection of static websites.
 
 ### Portfolio Website
 - A personal portfolio to showcase skills, experiences, and projects.
-- [Live Preview](https://github.com/khiancarasicas)
-
-### Project Name
-- Project description.
-- [Live Preview](https://github.com/khiancarasicas)
+- [Live Preview](https://khiancarasicas.github.io/simple-static-webs/portfolio-web-1/)
 
 ---
 

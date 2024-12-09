@@ -166,8 +166,8 @@ header #social-links-list {
 
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr 2.5fr; /* Two columns: left (flexible), right (auto) */
-    gap: 1rem; /* Add space between columns */
+    grid-template-columns: 1fr 2.5fr; 
+    gap: 1rem; 
     margin-top: 2.5rem;
 }
 
@@ -179,14 +179,14 @@ header #social-links-list {
     text-align: right;
 }
 
-@media (max-width: 600px) { /* Adjusts layout when screen width is small */
+@media (max-width: 600px) { 
     .footer-container {
-        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-columns: 1fr; 
         gap: 0.5rem;
     }
 
     .credits-text {
-        text-align: left; /* Align to left in single column */
+        text-align: left; 
     }
 }
 
