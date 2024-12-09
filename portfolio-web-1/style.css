@@ -1,11 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+/* DEFAULT THEME */
+/* :root {
+    --font-color-1: white;
+    --background-color: rgb(25, 24, 37);
+    --primary-color: rgb(134, 93, 255);
+    --secondary-color: rgb(227, 132, 255);
+    --font-color-2: rgba(255, 255, 255, 0.8);
+    --font-color-3: rgba(255, 255, 255, 0.6);
+    --line-color: rgba(255, 255, 255, 0.25);
+    --primary-container: rgb(134, 93, 255, .1);
+    --primary-container-hover: rgb(134, 93, 255, .2);
+    --default-container: rgba(255, 255, 255, 0.01);
+    --default-container-border: rgba(255, 255, 255, 0.1);
+} */
+
+/* THEME 2 */
+:root {
+    --font-color-1: white;
+    --background-color: rgb(24, 24, 35);
+    --primary-color: rgb(83, 127, 231);
+    --secondary-color: rgb(192, 238, 242);
+    --font-color-2: rgba(255, 255, 255, 0.8);
+    --font-color-3: rgba(255, 255, 255, 0.6);
+    --line-color: rgba(255, 255, 255, 0.25);
+    --primary-container: rgb(83, 127, 231, .1);
+    --primary-container-hover: rgb(83, 127, 231, .2);
+    --default-container: rgba(255, 255, 255, 0.01);
+    --default-container-border: rgba(255, 255, 255, 0.1);
+}
+
+/* THEME 3 */
+/* :root {
+    --font-color-1: white;
+    --background-color: rgb(21, 21, 21);
+    --primary-color: rgb(169, 29, 58);
+    --secondary-color: rgb(199, 54, 89);
+    --font-color-2: rgba(255, 255, 255, 0.8);
+    --font-color-3: rgba(255, 255, 255, 0.6);
+    --line-color: rgba(255, 255, 255, 0.25);
+    --primary-container: rgba(169, 29, 58, .1);
+    --primary-container-hover: rgb(169, 29, 58, .2);
+    --default-container: rgba(255, 255, 255, 0.01);
+    --default-container-border: rgba(255, 255, 255, 0.1);
+} */
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', serif;
+    font-family: 'Poppins', 'Arial', serif;
     box-sizing: border-box;
-    color: white;
+    color: var(--font-color-1);
     font-size: .9rem;
     font-weight: normal;
 }
@@ -21,7 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    background-color: #191825;
+    background-color: var(--background-color);
 }
 
 h1, h2 {
@@ -31,11 +76,12 @@ h1, h2 {
 
 h3 {
     font-weight: inherit;
+    color: var(--font-color-2);
 }
 
 p {
     font-size: .8rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--font-color-3);
 }
 
 a {
@@ -48,7 +94,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0);
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +105,7 @@ a {
 
 .line {
     height: .05rem;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: var(--line-color);
 }
 
 header {
@@ -78,7 +124,7 @@ main {
 .shine-text {
     display: inline-flex; 
     align-items: center; 
-    background: linear-gradient(90deg, rgb(134, 93, 255), rgb(227, 132, 255));
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none; 
@@ -98,7 +144,7 @@ main {
 
 .btn-link {
     display: flex;
-    background-color: rgb(134, 93, 255, .1);
+    background-color: var(--primary-container);
     text-decoration: none;
     justify-content: center;
     padding-left: 1rem;
@@ -107,11 +153,11 @@ main {
     padding-top: .5rem;
     padding-bottom: .5rem;
     font-size: .7rem;
-    color: rgb(134, 93, 255);
+    color: var(--primary-color);
 }
 
 .btn-link:hover {
-    background-color: rgb(134, 93, 255, .2);
+    background-color: var(--primary-container-hover);
 }
 
 /* HEADER */
@@ -148,9 +194,9 @@ main {
 
 .project-card {
     padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.01);
+    background-color: var(--default-container);
     border-radius: 1rem;
-    border: .05rem solid rgba(255, 255, 255, 0.1);
+    border: .05rem solid var(--default-container-border);
 }
 
 .project-card > p {
@@ -186,11 +232,16 @@ main {
 }
 
 #footer-text {
-    color: white;
+    color: var(--font-color-1);
 }
 
 .credits-text {
     text-align: right;
+}
+
+.credits-text span a {
+    text-align: right;
+    font-size: .8rem;
 }
 
 /*  */

@@ -13,24 +13,5 @@
                 "btn-link": "https://github.com/khiancarasicas/simple-static-webs"
             }
         ]
-    },
-    {
-        "name": "Personal Portfolio",
-        "description": "A simple portfolio website that highlights skills, experience, and projects. Designed to be clean, easy to navigate, and visually appealing..",
-        "tech-used": [
-            "HTML", 
-            "CSS", 
-            "JavaScript"
-        ],
-        "buttons": [
-            {
-                "btn-text": "View On Github",
-                "btn-link": "https://github.com/khiancarasicas/simple-static-webs"
-            },
-            {
-                "btn-text": "View Live",
-                "btn-link": "https://khiancarasicas.github.io/simple-static-webs/portfolio-web-1/"
-            }
-        ]
     }
 ]
